@@ -1,6 +1,7 @@
 # Local Apache Spark Setup
 
 Simple config tailored for setting up a local Apache Spark environment from scratch.
+
 ![pyspark sample](/images/pyspark.png)
 
 **List of automated steps**
