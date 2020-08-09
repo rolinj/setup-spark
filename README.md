@@ -10,7 +10,7 @@ A configured Vagrantfile including some simple shell scripts tailored for settin
 
 
 ### Usage
-**Note:** It is assumed that you already have the [Vagrant](https://www.vagrantup.com) installed and this repository cloned.
+**Note:** It is assumed that you already have the [Vagrant](https://www.vagrantup.com) installed and this repository forked/cloned.
   1. Within the repository, execute `vagrant plugin install vagrant-disksize`.
 
   2. Afterwards, create the machine with `vagrant up`
