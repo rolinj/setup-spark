@@ -1,9 +1,9 @@
 # Local Apache Spark Setup
 
-Simple config tailored for setting up a local Apache Spark environment from scratch.
+A configured Vagrantfile including some simple shell scripts tailored for setting up a local Apache Spark environment from scratch.
 
 **List of automated steps**
-  1. Installation of Apache Spark (__version reference from [official docs](https://spark.apache.org/downloads.html)__)
+  1. Installation of Apache Spark _(version reference from [official docs](https://spark.apache.org/downloads.html))_
   2. Installation of JDK11
   3. Setup Python3 as defaul python version
 
