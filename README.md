@@ -6,11 +6,11 @@ A configured Vagrantfile including some simple shell scripts tailored for settin
   1. Installation of Apache Spark _(version reference from [official docs](https://spark.apache.org/downloads.html))_
   2. Installation of JDK11
   3. Setup Python3 as defaul python version
-  4. Installation of ubuntu-desktop to enable the GUI
+  4. Installation of ubuntu-desktop to enable the GUI (so you can install and use IDEs (ex. Eclipse)
 
 
 ### Usage
-**Note:** It is assumed that you already have the [Vagrant](https://www.vagrantup.com) installed and this repository forked/cloned.
+**Note:** It is assumed that you already have the [Vagrant](https://www.vagrantup.com) installed and this repository forked/cloned. Also, if you won't be using an IDE, go to Vagrantfile and remove script execution for GUI installation. You may then skip below steps with regards to GUI.
   1. Within the repository, execute `vagrant plugin install vagrant-disksize`.
 
   2. Afterwards, create the machine with `vagrant up`
