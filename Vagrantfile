@@ -20,9 +20,9 @@ Vagrant.configure("2") do |config|
     end
 
     node.vm.provision "setup-dns", type: "shell", :path => "update-dns.sh"
-    node.vm.provision "setup-gui", type: "shell", :path => "setup-gui.sh"
     node.vm.provision "install-jdk", type: "shell", :path => "install-jdk.sh"
     node.vm.provision "install-spark", type: "shell", :path => "install-spark.sh"
+    node.vm.provision "setup-gui", type: "shell", :path => "setup-gui.sh"  
 
   end
 end
